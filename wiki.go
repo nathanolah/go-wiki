@@ -108,10 +108,6 @@ func makeHandler(fn func(http.ResponseWriter, *http.Request, string)) http.Handl
 	}
 }
 
-// func handler(w http.ResponseWriter, r *http.Request) {
-// 	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:]) // sub slice of the starting after "/"
-// }
-
 func main() {
 	// construct instance of Page
 	// p1 := &Page{Title: "TestPage", Body: []byte("This is a sample Page")}
